@@ -1,0 +1,11 @@
+{
+  /* Em qual pasta o TypeScript vai ser convertido */
+  "compilerOptions": {
+    "outDir": "./dist/js",
+    "target": "ES6",
+   /* Não deixa gerar aqui .ts errado */
+    "noEmitOnError": true,
+  },
+  /* Arquivos que serão convertidos */
+  "include": [ "app/**/*.ts" ]
+}
