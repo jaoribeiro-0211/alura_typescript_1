@@ -3,8 +3,10 @@
   "compilerOptions": {
     "outDir": "./dist/js",
     "target": "ES6",
-   /* Não deixa gerar aqui .ts errado */
+   /* Não deixa gerar aqui .js errado */
     "noEmitOnError": true,
+    /* Não deixa as variáveis ficar sem tipagem,mesmo q for any tem q colocar :any */
+    "noImplicitAny": true,
   },
   /* Arquivos que serão convertidos */
   "include": [ "app/**/*.ts" ]
